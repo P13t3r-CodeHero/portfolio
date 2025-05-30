@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.projects-section {
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    padding-top: 150px;
+    top: 0;
+    z-index: 2;
+}
+
+.projects-header {
+    font-size: 3rem;
+    background: linear-gradient(90deg, #ff4d5a, #c44dff);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-family: 'Zen Dots', sans-serif;
+}
+
+.project-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    flex-direction: column;
+    padding: 50px;
+    z-index: 2;
+}
+
+.project-card-container {
+    width: 75%;
+    height: auto;
+    min-height: 400px;
+    border: 1px solid #fff;
+    border-radius: 40px;
+    background-color: #000000;
+    position: relative;
+    overflow: hidden;
+    position: sticky;
+    top: 100px;
+}
+
+.project-card-header {
+    width: 50%;
+    height: 20%;
+    font-family: 'Zen Dots', sans-serif;
+    font-size: 1.5rem;
+    text-align: left;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+
+.project-card-body {
+    display: flex;
+}
+
+.project-body-text {
+    width: 50%;
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+    padding-left: 30px;
+}
+
+.project-body-image {
+    width: 500px;
+    height: 400px;
+    overflow: hidden;
+    padding-left: 10px;
+}
+
+.project-image {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.tech-icons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .badge {
+    background: #000;
+    border: 1px solid #333;
+    padding: 8px 15px;
+    border-radius: 30px;
+    font-size: 0.9rem;
+    align-items: center;
+    text-align: center;
+  }
+
+  @media (max-width: 1200px) {
+    .project-container {
+      padding: 20px 10px;
+    }
+  
+    .project-card-container {
+      width: 100%;
+      min-height: auto;
+      position: static !important; /* Disable sticky on small screens */
+      margin-bottom: 40px;
+    }
+  
+    .project-card-body {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .project-body-text {
+      width: 90%;
+      padding: 10px 0;
+      text-align: center;
+    }
+  
+    .project-body-image {
+      width: 90%;
+      height: auto;
+      padding: 0;
+      margin-top: 10px;
+    }
+  
+    .project-image {
+      width: 100%;
+      height: auto;
+      object-fit: contain;
+    }
+  
+    .tech-icons {
+      justify-content: center;
+    }
+  
+    .project-card-header {
+      text-align: center;
+      width: 100%;
+      padding: 15px;
+      font-size: 1.2rem;
+    }
+  }
+  
+  

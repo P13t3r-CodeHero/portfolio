@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.hackathon-section {
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    padding-top: 150px;
+    height: 100vh;
+}
+
+.hackathon-header {
+    font-size: 3rem;
+    background: linear-gradient(90deg, #ff4d5a, #c44dff);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-family: 'Zen Dots', sans-serif;
+}
