@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHouse, faUser, faLaptopCode, faMessage, faUserSecret } from '@fortawesome/free-solid-svg-icons';
+import { faHouse, faUser, faLaptopCode, faMessage } from '@fortawesome/free-solid-svg-icons';
 import './navigation.css';
 
 const Navbar = () => {
