@@ -39,6 +39,7 @@
   flex-wrap: wrap;
   gap: 1.5rem;
   margin-top: 2rem;
+  z-index: 2;
 }
 
 .button {
@@ -78,6 +79,11 @@
   .button-container {
     gap: 1rem;
     flex-direction: column;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -8%;
   }
 }
 
